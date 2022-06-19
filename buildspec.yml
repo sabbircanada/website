@@ -6,7 +6,7 @@ phases:
       - echo "this is build phase ..zipping my webpage"
   post_build:
     commands:
-      - echo "deployed to s3 bucket"
+      - echo "deployed to s3"
 artifacts:
   files:
     - '**/*'
